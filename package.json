@@ -1,0 +1,22 @@
+{
+  "name": "curso-branas-clean-arch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:h1bertobarbosa/curso-branas-clean-arch.git",
+  "author": "Humberto Barbosa <humberto.obarbosa@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/uuid": "^8.3.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
